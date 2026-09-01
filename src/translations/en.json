@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "tournaments": "Tournaments",
+    "myMatches": "My Matches",
+    "results": "Results",
+    "wallet": "Wallet",
+    "notifications": "Notifications",
+    "profile": "Profile"
+  },
+  "auth": {
+    "login": "Log in",
+    "register": "Create account",
+    "logout": "Log out",
+    "forgotPassword": "Forgot password?",
+    "email": "Email",
+    "password": "Password",
+    "fullName": "Full name",
+    "username": "Username",
+    "phone": "Phone number",
+    "orContinueWith": "Or continue with",
+    "google": "Continue with Google",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "resetSent": "If that email is registered, a reset link is on its way."
+  },
+  "dashboard": {
+    "welcomeBack": "Welcome back, {username}",
+    "wallet": "Wallet",
+    "upcomingTournament": "Upcoming Tournament",
+    "entry": "Entry",
+    "prizePool": "Prize Pool",
+    "joinNow": "Join Now",
+    "joinedTournaments": "Joined Tournaments",
+    "recentResults": "Recent Results",
+    "recentTransactions": "Recent Transactions"
+  },
+  "tournament": {
+    "mode": "Mode",
+    "map": "Map",
+    "entry": "Entry",
+    "prizePool": "Prize Pool",
+    "perKill": "Per Kill",
+    "booyah": "Booyah",
+    "maxPlayers": "Max Players",
+    "slotsLeft": "Slots left",
+    "join": "Join Tournament",
+    "registered": "Registered",
+    "full": "Full",
+    "closed": "Registration closed",
+    "status": {
+      "upcoming": "Upcoming",
+      "registration_open": "Registration Open",
+      "ongoing": "Ongoing",
+      "completed": "Completed"
+    }
+  },
+  "wallet": {
+    "availableBalance": "Available balance",
+    "addMoney": "Add money",
+    "withdraw": "Withdraw",
+    "history": "Transaction history"
+  },
+  "common": {
+    "loading": "Loading...",
+    "comingSoon": "Coming Soon",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "copy": "Copy",
+    "copied": "Copied"
+  }
+}

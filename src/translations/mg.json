@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "home": "Fandraisana",
+    "dashboard": "Tabilao",
+    "tournaments": "Fifaninanana",
+    "myMatches": "Ny lalaoko",
+    "results": "Vokatra",
+    "wallet": "Kitapo",
+    "notifications": "Fampandrenesana",
+    "profile": "Mombamomba"
+  },
+  "auth": {
+    "login": "Hiditra",
+    "register": "Hamorona kaonty",
+    "logout": "Hivoaka",
+    "forgotPassword": "Hadino ny tenimiafina?",
+    "email": "Mailaka",
+    "password": "Tenimiafina",
+    "fullName": "Anarana feno",
+    "username": "Anarana fampiasa",
+    "phone": "Laharana finday",
+    "orContinueWith": "Na manohy amin'ny",
+    "google": "Manohy amin'i Google",
+    "noAccount": "Tsy manana kaonty?",
+    "haveAccount": "Efa manana kaonty?",
+    "resetSent": "Raha voarakitra io mailaka io dia hisy rohy hoveriana averina."
+  },
+  "dashboard": {
+    "welcomeBack": "Tongasoa indray, {username}",
+    "wallet": "Kitapo",
+    "upcomingTournament": "Fifaninanana ho avy",
+    "entry": "Saran'idirana",
+    "prizePool": "Loka",
+    "joinNow": "Midira izao",
+    "joinedTournaments": "Fifaninanana nidirana",
+    "recentResults": "Vokatra farany",
+    "recentTransactions": "Fifampiraharahana farany"
+  },
+  "tournament": {
+    "mode": "Fomba",
+    "map": "Sarintany",
+    "entry": "Saran'idirana",
+    "prizePool": "Loka",
+    "perKill": "Isaky ny mahafaty",
+    "booyah": "Booyah",
+    "maxPlayers": "Mpilalao fara-fahabetsany",
+    "slotsLeft": "Toerana sisa",
+    "join": "Midira amin'ny fifaninanana",
+    "registered": "Voasoratra anarana",
+    "full": "Feno",
+    "closed": "Mihidy ny fisoratana anarana",
+    "status": {
+      "upcoming": "Ho avy",
+      "registration_open": "Misokatra ny fisoratana",
+      "ongoing": "Mandeha",
+      "completed": "Vita"
+    }
+  },
+  "wallet": {
+    "availableBalance": "Vola azo ampiasaina",
+    "addMoney": "Hampiditra vola",
+    "withdraw": "Hanaisotra vola",
+    "history": "Tantaran'ny fifampiraharahana"
+  },
+  "common": {
+    "loading": "Eo am-panasana...",
+    "comingSoon": "Ho avy tsy ho ela",
+    "save": "Tehirizo",
+    "cancel": "Aoka",
+    "submit": "Alefaso",
+    "copy": "Adikao",
+    "copied": "Voadika"
+  }
+}

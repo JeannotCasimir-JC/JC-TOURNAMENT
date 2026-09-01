@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "dashboard": "Tableau de bord",
+    "tournaments": "Tournois",
+    "myMatches": "Mes matchs",
+    "results": "Résultats",
+    "wallet": "Portefeuille",
+    "notifications": "Notifications",
+    "profile": "Profil"
+  },
+  "auth": {
+    "login": "Connexion",
+    "register": "Créer un compte",
+    "logout": "Déconnexion",
+    "forgotPassword": "Mot de passe oublié ?",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "fullName": "Nom complet",
+    "username": "Nom d'utilisateur",
+    "phone": "Numéro de téléphone",
+    "orContinueWith": "Ou continuer avec",
+    "google": "Continuer avec Google",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "haveAccount": "Vous avez déjà un compte ?",
+    "resetSent": "Si cet e-mail est enregistré, un lien de réinitialisation arrive."
+  },
+  "dashboard": {
+    "welcomeBack": "Bon retour, {username}",
+    "wallet": "Portefeuille",
+    "upcomingTournament": "Prochain tournoi",
+    "entry": "Entrée",
+    "prizePool": "Cagnotte",
+    "joinNow": "Rejoindre",
+    "joinedTournaments": "Tournois rejoints",
+    "recentResults": "Résultats récents",
+    "recentTransactions": "Transactions récentes"
+  },
+  "tournament": {
+    "mode": "Mode",
+    "map": "Carte",
+    "entry": "Entrée",
+    "prizePool": "Cagnotte",
+    "perKill": "Par élimination",
+    "booyah": "Booyah",
+    "maxPlayers": "Joueurs max",
+    "slotsLeft": "Places restantes",
+    "join": "Rejoindre le tournoi",
+    "registered": "Inscrit",
+    "full": "Complet",
+    "closed": "Inscriptions fermées",
+    "status": {
+      "upcoming": "À venir",
+      "registration_open": "Inscriptions ouvertes",
+      "ongoing": "En cours",
+      "completed": "Terminé"
+    }
+  },
+  "wallet": {
+    "availableBalance": "Solde disponible",
+    "addMoney": "Ajouter de l'argent",
+    "withdraw": "Retirer",
+    "history": "Historique des transactions"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "comingSoon": "Bientôt disponible",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "submit": "Envoyer",
+    "copy": "Copier",
+    "copied": "Copié"
+  }
+}

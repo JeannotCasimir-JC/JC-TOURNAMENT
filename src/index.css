@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #05060B;
+  background-image: radial-gradient(circle at 15% 0%, rgba(59,130,246,0.14), transparent 40%),
+    radial-gradient(circle at 85% 20%, rgba(139,92,246,0.14), transparent 45%),
+    linear-gradient(rgba(139,92,246,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(139,92,246,0.05) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 36px 36px, 36px 36px;
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(139, 92, 246, 0.35);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.35);
+  border-radius: 8px;
+}
+
+*:focus-visible {
+  outline: 2px solid #22D3EE;
+  outline-offset: 2px;
+}
+
+@layer components {
+  /* Glassmorphism panel used across cards */
+  .glass {
+    @apply bg-panel backdrop-blur-xl border border-white/[0.06];
+  }
+
+  /* Esports HUD corner-clip — the signature visual motif: every primary
+     card is "clipped" at two opposite corners like a HUD frame, with a
+     thin accent line tracing the cut. Encodes "this is competitive/live
+     data", not decoration. */
+  .hud-card {
+    @apply glass relative rounded-2xl;
+    clip-path: polygon(
+      0 12px,
+      12px 0,
+      100% 0,
+      100% calc(100% - 12px),
+      calc(100% - 12px) 100%,
+      0 100%
+    );
+  }
+  .hud-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: linear-gradient(135deg, rgba(59,130,246,0.5), rgba(139,92,246,0.15) 40%, transparent 70%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+    clip-path: inherit;
+  }
+
+  .glow-text {
+    text-shadow: 0 0 18px rgba(59, 130, 246, 0.45);
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-edge-blue to-edge px-5 py-2.5 font-display font-semibold tracking-wide text-white shadow-glow transition-transform duration-150 hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-white/10 bg-white/[0.03] px-5 py-2.5 font-display font-semibold tracking-wide text-ink transition-colors hover:bg-white/[0.07] disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  .input-field {
+    @apply w-full rounded-xl border border-white/10 bg-white/[0.03] px-4 py-2.5 text-ink placeholder:text-ink-faint outline-none transition-colors focus:border-edge-blue/60;
+  }
+
+  .stat-mono {
+    @apply font-mono tracking-tight;
+  }
+}
